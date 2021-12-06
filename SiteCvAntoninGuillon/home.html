@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8" /> <!-- encodage de la page -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--<link rel="stylesheet" href="css\.css" /> --> <!-- lien vers le css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="asset/style/stylesheet.css">
+  <script type="text/javascript" src="asset/script/script.js"></script>
+  <title>Site Cv Alternance Concepteur developpeur Java FullStack</title>
+
+</head>
+<body>
+  <div class="conatiner-fluid main">
+
+    <!-- Barre de Navigation flottante, liens vers les différente partie du cv -->
+    <nav id="nav" class="navbar navbar-expand-md justify-content-center fixed-top nav">
+      <span class="navbar-text">Antonin Guillon</span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#Accueil">Présentation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#EtuExp">Etudes et Experiences</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Knowledge">Connaissance</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Proj">Projets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#NI">Nuit de L'info 2016</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <div id="Accueil" class="container-fluid accueil"> <!-- Première partie du site cv simple présentation -->
+
+      <h1>CV Alternance Concepteur developpeur Java FullStack </h1>
+      <div class="container presentation">
+        <p>Titulaire d'un BTS SN option IR, je suis à la recherche d'une alternance sur Montpellier dans le cadre d'une formation de concepteur développeur Java FullStack dont une période de six mois en centre de formation puis douze mois en entreprise.</p>
+      </div>
+    </div>
+
+    <div id="EtuExp" class="container-fluid etuExp"> <!-- Seconde partie du site cv mes Etudes et experiences professionnelles -->
+
+      <h1>Etudes	& Expériences</h1>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-6 etuExpItem">
+
+            <h3>Etudes :</h3>
+            <ul>
+              <li>BTS Systèmes Numériques option A Informatique et Réseaux, diplômé en juin 2020</li>
+              <li>IUT informatique de Limoges, arrêt en milieu de 2e année</li>
+              <li>Bac S mention Assez Bien, diplômé en juillet 2015</li>
+            </ul>
+
+          </div>
+
+          <div class="col-md-6 etuExpItem">
+
+            <h3>Stage de BTS :</h3>
+            <ul>
+              <li>Maintenance et dépannage de matériel informatique (1 mois et demi)</li>
+            </ul>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 etuExpItem">
+
+            <h3>Job Etudiant :</h3>
+            <ul>
+              <li>Vendeur en Charcuterie (2 ans et demi)</li>
+            </ul>
+
+          </div>
+
+          <div class="col-md-6 etuExpItem">
+
+            <h3>Saison et vacances scolaires :</h3>
+            <ul>
+              <li>Employé polyvalent de supermarché (3 ans)</li>
+              <li>Agent d'entretient (4 mois)</li>
+              <li>Préparateur de commandes (4 mois)</li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="Knowledge" class="container-fluid knowledge"> <!-- Troisième partie du site cv mes coonnaissances utiles pour une alternance-->
+
+      <h1>Connaissances</h1>
+
+      <div class="container">
+
+        <h2>Programmation</h2>
+
+        <ul>
+          <li>C / C++ / C# </li>
+          <li>Java / Java Swing</li>
+          <li>HTML / CSS</li>
+          <li>SGBD</li>
+        </ul>
+
+        <h2>Autres</h2> <!-- je n'ai absolument aucune idée de comment appeler cette sous-partie -->
+
+        <ul>
+          <li>Méthode Agile</li>
+          <li>UML</li>
+          <li>UNIX</li>
+          <li>Administration réseaux</li>
+        </ul>
+
+        <h2>Langues</h2>
+
+        <ul>
+          <li>Anglais</li>
+          <li>Espagnole</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="Proj"  class="container-fluid proj"> <!-- Quatrième partie du site cv mes projets effectués pendant mes études -->
+
+      <h1>Projets</h1>
+
+      <div class="container">
+        <div class="row">
+          <button id="P1" class="col-md-6 button">Détection de mouvement et vidéo surveillance avec une Raspberry Pi</button>
+          <button id="P2" class="col-md-6 button">Conception de site web à partir d'un existant Projet Check your smile</button>
+        </div>
+      </div>
+
+      <div id="divP1" class="hide" style="display: none;">
+        <div class="container-fluid hiddenProject">
+
+          <h2>Détection de mouvement et vidéo surveillance avec une Raspberry Pi</h2>
+          <div class="row">
+            <p class="col-md-6">Le projet, fait à l'IUT de Limoges concistais à réaliser une caméra de surveillance à partir d'un Raspberry Pi avec caméra. Nous devions mettre en place un système qui puisse prendre des photos ou vidéos depuis une interface web ou automatiquement s'il détectait un mouvement. Nous avons pour ça utilisé du python pour le traitement d'image lié à la détection de mouvement ainsi que pour la prise de photo et de vidéo. L'interface web a été développée avec du html/css et du php, la base de données avec MySQL.</p>
+            <img src="asset/img/rasp.jpg" alt="raspberry pi avec une caméra" class="rounded rasp col-md-4">
+          </div>
+        </div>
+      </div>
+
+      <div id="divP2" class="hide" style="display: none;">
+        <div class="container-fluid hiddenProject">
+
+          <h2>Conception de site web à partir d'un existant Projet Check your smile</h2>
+          <div class="row">
+            <p class="col-md-6">Ce projet de l'IUT de Limoges concistais cette fois-ci à réaliser la migration de "mini-jeu" (Ex: téléphone arabe, mots-croisés) d'un site web, initialement programmés en javascript, en php sous framework Symfony. Le client de ce projet était externe à l'IUT et était situé à Toulouse et a été plus laborieux que le précédent à bien des égards, que ce soit le manque de connaissance technique de notre équipe de projet dans les deux langages cités précédemment (que nous n'avions pas encore abordé en cours) ou par le manque de communication avec le client ainsi que ses différentes nouvelles demandes de dernier moment. Cependant ce projet a été une source d'apprentissage non-négligeable dans l'appréhension d'un projet en condition proche du réel.</p>
+            <div class="col-md-4">
+              <div id="carousel" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel" data-slide-to="1"></li>
+                  <li data-target="#carousel" data-slide-to="2"></li>
+                  <li data-target="#carousel" data-slide-to="3"></li>
+                  <li data-target="#carousel" data-slide-to="4"></li>
+                  <li data-target="#carousel" data-slide-to="5"></li>
+                  <li data-target="#carousel" data-slide-to="6"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="asset/img/useCase.png" class="rounded" alt="diagramme de use case général du projet">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="asset/img/actDia.png" class="rounded" alt="diagramme d'activité du jeu type Taboo">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="asset/img/agile.png" class="rounded" alt="Image du travail en méthode agile">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="asset/img/webSite1.png" class="rounded" alt="Aperçu générale de la liste des jeux du site">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="asset/img/webSite2.png" class="rounded" alt="Aperçu sélection du rôle dans le jeu de type Taboo">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="asset/img/webSite3.png" class="rounded" alt="Aperçu de la création d'une carte pour le jeu de type Taboo">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="asset/img/webSite4.png" class="rounded" alt="Aperçu de la création d'une partie pour le jeu de type Taboo">
+                  </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#carousel" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#carousel" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="NI" class="container-fluid NI"> <!-- Cinquième partie du site cv ma participation à la nuit de l'info 2016 -->
+
+      <h1>Nuit de L'info 2016</h1>
+      <div class="container">
+        <div class="row">
+          <p class="col-md-6">La <a href="https://www.nuitdelinfo.com/" target="_blank">Nuit de l'Info</a> est un concours de programmation à l'échelle nationale qui se déroule le premier week-end de décembre de chaque année depuis 2007, plusieurs Universités et écoles ouvrent leurs portes dans la soirée du jeudi jusqu'au vendredi matin pour accueillir des étudiants des quatre coins de la France qui participent en équipe à un défi commun donné par un Association qui définit le thème générale du concours ainsi que quartes autres défis choisi par les équipes parmi une multitude, proposés par des écoles et des entreprises du monde de l'Informatique. Lors de ma participation en 2016 avec l'équipe Echo "Avis de Template" nous avons remporté deux défis sur les 39 proposés.</p>
+          <ul class="col-md-4">
+            <li><a href="https://www.nuitdelinfo.com/nuitinfo/defis2016:archives#defi12" target="_blank">Mettez du relief avec WebGL</a></li>
+            <li><a href="https://www.nuitdelinfo.com/nuitinfo/defis2016:archives#defi38" target="_blank">ADN Agile : un cocktail Produit 'n' People</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="Contact" class="container-fluid contact"> <!-- Sixième et dernière partie du site cv me contacter -->
+
+      <h1>Contact</h1>
+      <div class="container contactItem">
+        <div class="row">
+          <a href="https://www.linkedin.com/in/antonin-guillon-230718128/" target="_blank" class="col-md-3"><img src="asset/img/logoIn.png" alt="Logo linkedin" id="logLink"></a>
+          <a href="mailto:guillon.antonin@yahoo.com" target="_blank" class="col-md-3"><img src="asset/img/logoMail.png" alt="Logo mail" id="logMail"></a>
+          <p class="col-md-4" id="tel">Tel : 07 49 50 28 11</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script>
+var divP1 = document.getElementById("divP1"); //sur ces 4 lignes on récupère les élements de la page dont nous devons nous servir
+var buttonP1 = document.getElementById("P1");
+var divP2 = document.getElementById("divP2");
+var buttonP2 = document.getElementById("P2");
+var nav = document.getElementById("nav");
+
+buttonP1.addEventListener("click", function(){ //ajout d'un listener pour detecter l'appuie sur le bouton correspondant au projet 1
+  switch(divP1.className){
+    case "hide":
+    if(divP2.className != "hide"){hideProject(divP2);} // verification que le second projet ne soit ouvert en même temps, le ferme si necessaire
+    showProject(divP1);
+    break
+    case "show":
+    hideProject(divP1);
+    break
+    default:
+    alert("Ne modifier pas le code svp");
+  }
+})
+buttonP2.addEventListener("click", function(){ //ajout d'un listener pour detecter l'appuie sur le bouton correspondant au projet 2
+  switch(divP2.className){
+    case "hide":
+    if(divP1.className != "hide"){hideProject(divP1);} // verification que le premier projet ne soit ouvert en même temps, le ferme si necessaire
+    showProject(divP2);
+    break
+    case "show":
+    hideProject(divP2);
+    break
+    default:
+    alert("Ne modifier pas le code svp");
+  }
+})
+
+</script>
+</html>
